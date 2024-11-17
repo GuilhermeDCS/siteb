@@ -1,0 +1,383 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+#div1{
+
+    padding-left: 50px;
+    
+
+}
+
+
+.body_full {
+
+    background-color: rgb(214, 211, 211);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 0 10px;
+    height: 120px;
+    align-items: center;
+}
+
+ .link_link {
+    display: flex;
+    gap: -50px;
+    
+}
+.link_link li{
+    
+    width: 80px;
+    text-align: center;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+ .link_link li a {
+    /* margin-right: 10px; */
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    
+
+} 
+
+.body_full div h1 {
+    color: white;
+}
+
+#div2 {
+    display: flex;
+    position: fixed;
+    right: 7%;
+    top: 10px;
+}
+
+/* @media screen and (max-width:1292px) {
+    .body_full {
+        background-color: #CCC
+    }
+    #div2 {
+        display: flex;
+        position: fixed;
+        right: 7%;
+        top: 10px;
+    }
+}
+@media screen and (min-width:1100px) and (max-width:1291px) {
+    .body_full {
+        background-color: #CCC
+    }
+    #div2 {
+        display: flex;
+        position: fixed;
+        right: 8%;
+        top: 10px;
+    }
+}
+@media screen and (min-width:991px) and (max-width:1099px) {
+    .body_full {
+        background-color: #CCC
+    }
+    #div2 {
+        display: flex;
+        position: fixed;
+        right: 10%;
+        top: 10px;
+    }
+}
+@media screen and (min-width:756px) and (max-width:990px) {
+    .body_full {
+        background-color: #CCC
+    }
+    #div2 {
+        display: flex;
+        position: fixed;
+        right: 13%;
+        top: 10px;
+    }
+} */
+
+#divl {
+   
+   margin: auto;
+   
+   border: 3px solid rgb(2, 2, 2);
+   height: 115px;
+   width: 100%;
+   
+   padding-top: 15px;
+   padding-left: 36%;
+   box-shadow: 4px 4px 10px rgb(0 0 0 / 40%);
+   border-radius: 9px;
+   
+   
+   
+}
+#imgdivl{
+    width: 80px;
+    height: 76px;
+    margin-left: 66px;
+    
+    
+  }
+.imganun {
+    width: 80px;
+    height: 68px;
+    margin-left: 80px;
+    
+   
+
+
+}
+#divBusca{
+    background-color:#E0EEEE;
+    border:solid 2px #3c5152;
+    border-radius:10px;
+    width:350px;
+    height:33px;
+    margin-left: 80px;
+  }
+  
+  #txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-size:18px;
+    border:none;
+    height:29px;
+    width:246px;
+  }
+  
+  #btnBusca{
+    border:none;
+    float:left;
+    height:29px;
+    border-radius:0 7px 7px 0;
+    width:70px;
+    font-weight:bold;
+    background:#b93131;
+    
+  }
+  
+  #divBusca img{
+    float:left;
+  }
+  #divbn{
+    height: 600px;
+    
+    margin: auto;
+    
+    background-color: #b93131;
+  }
+  #divlat{
+    
+    height: 500px;
+    margin-right: 1050px;
+    border: 3px black solid;
+    width: 300px;
+  }
+  .linkp{
+    font-size: 25px;
+    margin-left: 10px;
+    color: rgb(214, 25, 25);
+    font-weight: bold;
+    vertical-align: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+    
+  }
+   fieldset {
+       
+       border:  solid;
+       border-left: 0px;
+       border-right: 0px;
+       border-top: 3px;
+       
+   }
+
+   /* GRID */
+   .grid-view{
+       /* display: grid; */
+       /* grid-template-columns: repeat(auto-fit, minmax(200px,1fr)) ; */
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       
+       margin:  3% 3% 7% 3%;
+       gap: 30px;
+       
+       flex-wrap: wrap;
+       
+       
+       
+    
+       
+   }
+   
+   
+   .grid-view div {
+       text-align: center;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       
+       
+
+   }
+   .box_game {
+    margin-top: 5%;
+    
+   }
+   .valor {
+    padding-top: 8%;
+    font-size: 1.8em;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(41, 179, 41);
+   }
+   .parcela {
+    padding-top: 1%;
+    font-size: 1.1em;
+    color: #c42e2e;
+    font-weight: bold;
+    font-family: sans-serif;
+   }
+   .fpag {
+    padding-top: 1%;
+   }
+   .btn {
+    margin-top: 8%;
+    width: 155px;
+    height: 50px;
+    margin-bottom: 10px;
+    background-color: rgb(255, 0, 0);
+    border: 0;
+    color: #E0EEEE;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    font-weight: 300;
+   }
+   .title_game {
+    font-family: sans-serif;
+    font-size: 1.3em;
+    font-weight: bold;
+   }
+   .valor_fpag {
+    font-weight: bold;
+    font-family: sans-serif;
+   }
+   .styleBox {
+    width: 290px;
+    box-shadow: 4px 4px 10px rgb(0 0 0 / 40%);
+    background-color: white;
+   }
+   .div_full {
+    
+    height: 240px;
+    background-color: rgb(214, 54, 54); 
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding-bottom: 60px;
+   
+    
+    
+    
+    
+    
+   }
+   .div_rdp {
+    
+    width: 100%;
+    height: 240px;
+    display: flex;
+    text-align: center;
+    justify-content: flex-start;
+    align-items: center;
+    font-size:45px;
+    
+    
+    padding-left: 20px;
+    padding-top: 25px;
+    
+   }
+   .div_rdp1 {
+    
+    width: 100%;
+    height: 300px;
+    display: flex;
+    text-align: center;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 35px;
+    color: black;
+    font-size: 23px;
+    
+    
+    
+   }
+   .div_rdp2 {
+    
+    width: 100%;
+    height: 300px;
+    display: flex;
+    text-align: center;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 30px;
+    color: black;
+    font-size: 20px;
+    
+    
+    
+   }
+   .div_rdp3 {
+    /* border: 2px solid rgb(10, 10, 10); */
+    
+    width: 100%;
+    height: 300px;
+    display: flex;
+    text-align: center;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 25px;
+    color: black;
+    font-size: 18px;
+    
+    
+    
+    
+   }
+   .btntop {
+    position: fixed;
+    bottom: 20px;
+    right: 25px;
+    
+  }
+  .imgtpn{
+
+    background-color: black;
+  }
+  
+  #ppag {
+
+    text-align: center;
+    font-size: 300%;
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    text-decoration: underline;
+    
+  }
+  
